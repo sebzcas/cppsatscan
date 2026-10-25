@@ -1,0 +1,118 @@
+                                 _____________________________
+
+                                        SaTScan v10.3.3
+                                 _____________________________
+
+
+Program run on: Sat Oct 24 01:03:06 2026
+
+Retrospective Purely Temporal analysis
+scanning for clusters with high rates
+using the Discrete Poisson model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 1973/1/1 to 1991/12/31
+Population, averaged over time.....: 1347686
+Total number of cases..............: 1175
+Annual cases / 100000..............: 4.6
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: All
+  Time frame............: 1985 to 1991
+  Number of cases.......: 552
+  Expected cases........: 478.77
+  Annual cases / 100000.: 5.3
+  Observed / expected...: 1.15
+  Relative risk.........: 1.29
+  Log likelihood ratio..: 9.329155
+  P-value...............: 0.002
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File       : C:\Users\Admin\Cases.cas
+  Population File : C:\Users\Admin\Population.pop
+  Time Precision  : Year
+  Start Date      : 1973/1/1
+  End Date        : 1991/12/31
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Purely Temporal
+  Probability Model       : Discrete Poisson
+  Scan For Areas With     : High Rates
+  Time Aggregation Units  : Year
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File                : D:\Projects\cppsatscan.v2\data\input\res.txt
+  HTML file for Google Map         : No
+  KML file for Google Earth        : No
+  Shapefile for GIS software       : No
+  HTML file for Cartesian map      : No
+  Cluster Information              : No (ASCII), No (dBase)
+  Stratified Cluster Information   : No (ASCII), No (dBase)
+  Location Information             : No (ASCII), No (dBase)
+  Risk Estimates for Each Location : No (ASCII), No (dBase)
+  Simulated Log Likelihood Ratios  : No (ASCII), No (dBase)
+
+Data Checking
+-------------
+  Temporal Data Check : Check to ensure that all cases and controls are within the specified temporal study period.
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size : 1 Year
+  Maximum Temporal Cluster Size : 50 percent of study period
+
+Cluster Restrictions
+--------------------
+  Minimum Cases in Cluster for High Rates : 2
+  Restrict High Rate Clusters             : No
+
+Space And Time Adjustments
+--------------------------
+  Temporal Adjustment                     : None
+  Adjust for Weekly Trends, Nonparametric : No
+  Adjust for Known Relative Risks         : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 999
+  Adjusting for More Likely Clusters : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+  User Defined Title      : 
+
+Notifications
+-------------
+  Always Send Email                      : No
+  Send Email with Results Meeting Cutoff : No
+
+Run Options
+-----------
+  Processor Usage   : All Available Processors
+  Suppress Warnings : No
+  Logging Analysis  : No
+_______________________________________________________________________________________________
+
+RUN INFORMATION
+
+Program completed  : Sat Oct 24 01:03:07 2026
+Total Running Time : 1 second
+Processor Usage    : 28 processors

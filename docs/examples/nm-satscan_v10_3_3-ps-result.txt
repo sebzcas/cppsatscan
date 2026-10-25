@@ -1,0 +1,167 @@
+                                 _____________________________
+
+                                        SaTScan v10.3.3
+                                 _____________________________
+
+
+Program run on: Fri Oct 23 21:34:55 2026
+
+Purely Spatial analysis
+scanning for clusters with high rates
+using the Discrete Poisson model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 1973/1/1 to 1991/12/31
+Number of locations................: 32
+Population, averaged over time.....: 1347686
+Total number of cases..............: 1175
+Annual cases / 100000..............: 4.6
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: Bernalillo, Sandoval, Valencia, Torrance, SantaFe, LosAlamos,
+                          Socorro, SanMiguel
+  Coordinates / radius..: (66,102) / 42.05
+  Span..................: 68.88
+  Population............: 672787
+  Number of cases.......: 642
+  Expected cases........: 586.58
+  Annual cases / 100000.: 5.0
+  Observed / expected...: 1.09
+  Relative risk.........: 1.21
+  Log likelihood ratio..: 5.235401
+  P-value...............: 0.045
+
+2.Location IDs included.: Sierra
+  Coordinates / radius..: (50,38) / 0
+  Span..................: 0
+  Population............: 8941
+  Number of cases.......: 17
+  Expected cases........: 7.80
+  Annual cases / 100000.: 10.0
+  Observed / expected...: 2.18
+  Relative risk.........: 2.20
+  Log likelihood ratio..: 4.086094
+  P-value...............: 0.144
+
+3.Location IDs included.: Chaves
+  Coordinates / radius..: (126,47) / 0
+  Span..................: 0
+  Population............: 52564
+  Number of cases.......: 64
+  Expected cases........: 45.83
+  Annual cases / 100000.: 6.4
+  Observed / expected...: 1.40
+  Relative risk.........: 1.42
+  Log likelihood ratio..: 3.350054
+  P-value...............: 0.266
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : C:\Users\Admin\Cases.cas
+  Population File  : C:\Users\Admin\Population.pop
+  Time Precision   : Year
+  Start Date       : 1973/1/1
+  End Date         : 1991/12/31
+  Coordinates File : C:\Users\Admin\Coordinates.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis    : Purely Spatial
+  Probability Model   : Discrete Poisson
+  Scan For Areas With : High Rates
+
+Output
+------
+  Main Results File                : D:\Projects\cppsatscan.v2\data\input\res.txt
+  HTML file for Google Map         : No
+  KML file for Google Earth        : No
+  Shapefile for GIS software       : No
+  HTML file for Cartesian map      : No
+  Cluster Information              : No (ASCII), No (dBase)
+  Stratified Cluster Information   : No (ASCII), No (dBase)
+  Location Information             : No (ASCII), No (dBase)
+  Risk Estimates for Each Location : No (ASCII), No (dBase)
+  Simulated Log Likelihood Ratios  : No (ASCII), No (dBase)
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Specify neighbors through a non-Euclidean neighbors file : No
+  Specify a meta location file                             : No
+  Observations with Multiple Locations                     : One location per observation.
+
+Locations Network
+-----------------
+  Use Locations Network File : No
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Window Shape                 : Circular
+  Isotonic Scan                : No
+
+Cluster Restrictions
+--------------------
+  Minimum Cases in Cluster for High Rates : 2
+  Restrict High Rate Clusters             : No
+
+Space And Time Adjustments
+--------------------------
+  Adjust for Known Relative Risks : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 999
+  Adjusting for More Likely Clusters : No
+
+Drilldown
+---------
+  Same Design as Main Analysis : No
+
+Miscellaneous Analysis
+----------------------
+  Report Oliveira's F : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Report Gini Optimized Cluster Collection  : No
+  Restrict Reporting to Smaller Clusters    : No
+
+Other Output
+------------
+  Report Critical Values  : No
+  Report Monte Carlo Rank : No
+  User Defined Title      : 
+
+Notifications
+-------------
+  Always Send Email                      : No
+  Send Email with Results Meeting Cutoff : No
+
+Run Options
+-----------
+  Processor Usage   : All Available Processors
+  Suppress Warnings : No
+  Logging Analysis  : No
+_______________________________________________________________________________________________
+
+RUN INFORMATION
+
+Program completed  : Fri Oct 23 21:34:55 2026
+Total Running Time : 0 seconds
+Processor Usage    : 28 processors

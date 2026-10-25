@@ -1,0 +1,2 @@
+id,sid,tid,locations,timespan,cz,bz,hz,llr,p_val,centre,radius,cg,bg,hg,mz,rr,oer,ann
+0,1590,0,1590,"()","('1985-01-01', '1991-01-01')",552,10437655,7,9.27155,0.031,,-1,1175,25604291,19,478.99,1.29,1.15,5.3

@@ -1,0 +1,16 @@
+-gp data\input\nm.geo
+-pp data\input\nm-ars.pop
+-cp data\input\nm-ars.cas
+-rp data\output\
+-typ PS
+-stm 1973-01-01
+-ntm 1991-01-01
+-ts %(1)Y
+-mcn 999
+-tcn 10
+-pn 1
+-pnd 0.5
+-lnd 0
+-tnd 0.5
+-gc 0
+-wtmp 1
